@@ -1,4 +1,7 @@
-# oanhnn/docker-php-unit
+# oanhnn/docker-php-unit [Deprecated]
+
+Now NGINX Unit build `unit:php` image base on offical PHP image (`php:cli`).
+So that, I don't continue develop this repository.
 
 [![CI](https://github.com/oanhnn/docker-php-unit/actions/workflows/ci.yml/badge.svg)](https://github.com/oanhnn/docker-php-unit/actions/workflows/ci.yml)
 [![Software License](https://img.shields.io/github/license/oanhnn/docker-php-unit.svg)](LICENSE.md)
