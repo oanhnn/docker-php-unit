@@ -12,7 +12,7 @@ defaults:
 jobs:
   check-update:
     name: Check Update
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -26,4 +26,4 @@ jobs:
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: Update PHP
+          commit_message: Update PHP or Nginx Unit

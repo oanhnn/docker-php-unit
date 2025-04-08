@@ -7,8 +7,10 @@ help:
 
 .PHONY: update
 update: clean
+	./versions.sh
 	./apply-templates.sh
 
 .PHONY: clean
 clean:
+	rm -f .jq-template.awk
 	rm -f versions.json
